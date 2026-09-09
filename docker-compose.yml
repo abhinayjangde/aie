@@ -1,0 +1,13 @@
+services:
+  db:
+    image: pgvector/pgvector:pg18
+    environment:
+      POSTGRES_PASSWORD: password
+    restart: unless-stopped
+    ports:
+      - "5432:15432"
+    volumes:
+      - pg_data:/var/lib/postgresql
+
+volumes:
+  pg_data:

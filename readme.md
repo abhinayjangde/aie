@@ -5,3 +5,9 @@
 
 https://www.scrapethissite.com/
 https://toscrape.com/
+
+
+## Tools on this Machine
+
+- Ollama
+- Docker
